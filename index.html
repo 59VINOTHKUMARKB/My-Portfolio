@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<html lan="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio - Vinoth Kumar</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- headerdesign -->
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+                <i class='bx bx-menu' ></i>
+            </nav>
+        </header>
+
+        <!-- home section design -->
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, Its Me</h3>
+                <h1>Vinoth Kumar</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <div id="paragraph"><p>As an innovative software developer.I am driven by a passion for crafting cutting-edge solutions that transcend conventional boundaries.
+                With a foundation in diverse programming languages and a knack for problem-solving,I thrive on transforming abstract ideas into tangible efficient software.</p></div> 
+
+
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/vinoth-kumar-k-b-6b7686265/"><i class='bx bxl-linkedin-square'></i></i></a>
+                    <a href=><i class='bx bxl-instagram'></i></a>
+                    <a href=""><i class='bx bxl-twitter'></i></a>
+                    <a href="https://github.com/59VINOTHKUMARKB"><i class='bx bxl-github'></i></a>
+                </div>
+                <br>
+                <a href="Resume Vinoth.pdf" download class="button">Download CV</a>
+            </div>
+
+            <div class="home-img">
+                <img class="my-photo" src="images\MyPhoto.jpg" alt="MyPhoto">
+            </div>
+        </section>
+
+
+        <!-- about section design -->
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img class="my-photo"src="images\MyPhoto.jpg" alt="MyPhoto">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span><br><h3>FrontEnd Developer</h3></h2>
+                
+                <!-- <p>As an innovative software developer.I am driven by a passion for <br>crafting cutting-edge solutions that transcend conventional boundaries.<br>
+                    With a foundation in diverse programming languages and a<br> knack for problem-solving,I thrive on transforming abstract ideas into tangible <br>efficient software. 
+                </p>  -->
+                 <!-- <a href="#" class="button">Read More</a>  -->
+                <div class="tab-titles " >
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Graphic Designing</span><br>Smooth Designs for Apps/Websites</li>
+                        <li><span>Web Development</span><br>Creating MultiPage Responsive Websites</li>
+                        <li><span>App Development</span><br>Building Android /iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Android App Developer Intern at NSIC Chennai</span><br>DEC 2023 - JAN 2024</li>
+                        <li><span>Web Developer Intern at Exposys Data Labs, Bangalore</span><br>NOV 2023 - JAN 2024</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Velammal College of Engineering and Technology</span><br>2022-2026<br>B.E.Computer Science and Engineering</li>
+                        <li><span>Thiagarajar Model Hr Sec School</span><br>2015-2022<br>SSLC HSC</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- services -->
+        <section class="services" id="services">
+            <h2 class="heading">Our <span>Services</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h1>Web Development</h1>
+                    <p>Welcome to my web development portfolio! I am a dedicated and innovative web developer with a passion for crafting interactive and visually appealing digital experiences. With a strong foundation in both front-end and back-end technologies, I specialize in bringing ideas to life through clean, efficient, and user-friendly websites and attractive UI Websites</p>
+                    <br>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bxl-android' ></i>
+                    <h1>Android App Development</h1>
+                    <p>Greetings! I am a passionate and detail-oriented Android app developer dedicated to creating immersive and user-centric mobile applications. With a strong foundation in mobile technologies and a commitment to staying ahead of industry trends, I specialize in transforming concepts into feature-rich, intuitive, and visually appealing Android apps.</p>
+                    <br>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bxs-paint'></i>
+                    <h1>Graphic Designing</h1>
+                    <p>I am a passionate and innovative graphic designer with a keen eye for aesthetics and a commitment to delivering visually stunning and impactful design solutions. Through a combination of artistic flair and technical proficiency, I specialize in creating captivating designs that effectively communicate messages and elevate brands.</p>
+                    <br>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio section -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">My<span> Projects</span></h2>
+            <div class="work-list">
+                <div class="work">
+                    <img class="work-img" src="images\ecomm.jpg" alt="">
+                    <div class="layer">
+                        <h3>eCommerce Website</h3>
+                        <p>Revolutionizing online shopping with a modern, responsive, and user-friendly eCommerce design.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="work-img" src="images\salpred.jpg" alt="">
+                    <div class="layer">
+                        <h3>Salary Prediction App</h3>
+                        <p>Empower with precision: My Salary Prediction App uses cutting-edge machine learning for accurate, data-driven salary estimations.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="work-img" src="images\chatvibe.jpg" alt="">
+                    <div class="layer">
+                        <h3>Video ChatCall Website</h3>
+                        <p>Unite through my Video Call and Chat Website.A user-centric space for real-time communication.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+
+        </section>
+
+        <!-- Contact -->
+        <section class="contact" id="contact">
+                <div class="row">
+                    <div class="contact-left">
+                        <h2 class="heading">Contact<span> Me</span></h2>
+                        <p><i class='bx bxl-gmail'></i>&nbsp;&nbsp;vinothkumar594kb@gmail.com</p>
+                        <p><i class='bx bxs-phone'></i>&nbsp;&nbsp;8428028409</p>
+                    </div>
+                    <div class="contact-right">
+                        <form class="form" name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" >
+                            <input type="email" name="Email" placeholder="Your Email">
+                            <textarea name="Message" rows="6" placeholder="Your Message..."></textarea>
+                            <a href=""class="button">Submit</a>
+                        </form>
+                    </div>
+                </div>
+        </section>
+        <div class="copyright">
+            <p>Copyright <i class='bx bx-copyright'></i>Vinoth Kumar Portfolio</p>
+        </div>
+            
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+
+    <script>
+        //scroll sections active link
+        let sections = document.querySelectorAll('section');
+        let navlinks=document.querySelectorAll('header nav a');
+
+        window.onscroll = () =>{
+            sections.forEach(sec=>{
+                let top=window.scrollY;
+                let offset = sec.offsetTop - 150;
+                let height =sec.offsetHeight;
+                let id=sec.getAttribute('id');
+
+                if(top>=offset && top<offset+height){
+                    navlinks.forEach(links=>{
+                        links.classList.remove('active');
+                        document.querySelector('header nav a[href*=' +id + ']').classList.add('active');
+                    })
+                }
+
+            })
+        }
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        // navbar icon touch
+        let menuIcon=document.querySelector('#menu-icon');
+        let navbar=document.querySelector('.navbar');
+        menuIcon.onclick=()=>{
+            menuIcon.classList.toggle('bx-x-circle');
+            navbar.classList.toggle('active');
+        }
+        // scroll reveal
+        ScrollReveal({ 
+            reset: true,
+            distance:'80px',
+            duration:2000,
+            delay:200
+        });
+        ScrollReveal().reveal('.home-content, .heading', { 'origin':'top' });
+        ScrollReveal().reveal('.home-img, .services-container,.work-list,.contact-right', { 'origin':'bottom' });
+
+        //animated span
+        const typed=new Typed('.multiple-text',{
+            strings:['Computer Science Student','FrontEnd Developer','Android Application Developer' ],
+            typeSpeed:100,
+            backSpeed:100,
+            backDelay:100,
+            loop:true
+        });
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxsvsgtO5RNO78F-3mcdDD1H2qwxFVoF7RTAw6CX4x0lldasDEInFwupttj3alaHLiq/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData()})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
